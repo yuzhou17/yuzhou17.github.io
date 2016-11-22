@@ -1,0 +1,22 @@
+<style> 
+a {
+  color: #d7d9db;
+}
+ul { 
+  padding: 15px; 
+  background: rgba(0,0,0,0.4); 
+  margin: -1.5px 0 0 0; 
+} 
+li { 
+  display: inline; 
+  padding: 10px; 
+  font-family: calibri bold; 
+  font-size: 20px; 
+} 
+body { 
+  text-align: center; 
+  background: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-36.jpg"); 
+  max-width: 600px; 
+  margin: 0 auto; 
+} 
+</style> 
