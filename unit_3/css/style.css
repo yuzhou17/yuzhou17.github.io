@@ -2,18 +2,19 @@ body {
 	background: url("http://i.imgur.com/xGAinlY.jpg");
 	background-size: cover;
 	text-align: center;
-	margin-top: 250px;
+	/*margin-top: 250px;*/
 	/*background: url(../images/lab-puppie.jpg);*/
 }
 h1 {
-	font-family: "Courier New", sans-serif;
-	font-size: 70px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 100px;
 	font-weight: 800;
+	margin-top: 200px;
 }
 p {
 	font-size: 20px;
 	font-family: "Courier New", sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	margin: 60px 0 0 0;
 }
 div {
@@ -22,7 +23,9 @@ div {
 	height: 20px;
 	width: 180px;
 	padding: 20px;
-	border-radius: 15px
+	border-style: outset;
+	border-width: 5px;
+	border-radius: 20px;
 }
 #adopt {
 	background-color: #FF473B;
