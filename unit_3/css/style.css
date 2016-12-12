@@ -1,10 +1,8 @@
 body {
-	background-color: #DDB082;
-}
-header {
 	background: url("http://i.imgur.com/xGAinlY.jpg");
 	background-size: cover;
 	text-align: center;
+	margin-top: 250px;
 	/*background: url(../images/lab-puppie.jpg);*/
 }
 h1 {
@@ -20,22 +18,20 @@ p {
 }
 div {
 	display: inline-block;
-	margin: 100px 0 0 0;
+	margin: 100px 10px 0 10px;
+	height: 20px;
+	width: 180px;
+	padding: 20px;
+	border-radius: 15px
 }
 #adopt {
-	height: 20px;
-	width: 180px;
-	background-color: red;
-	padding: 20px;
-	border-radius: 15px;
+	background-color: #FF473B;
 }
 #programs {
-	height: 20px;
-	width: 180px;
 	background-color: white;
-	padding: 20px;
-	border-radius: 15px;
 }
 a{
-
+	font-family: verdana, sans-serif;
+	color: black;
+	font-weight: 200px;
 }
