@@ -1,8 +1,11 @@
 header {
-	text-align: left;
+	text-align: right;
 	background-color: #FFE4D0;
-	padding: 80px;
+	padding: 2em;
 }
 div {
 	display: inline-block;
+}
+nav {
+	display: flex;
 }

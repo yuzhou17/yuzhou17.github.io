@@ -10,13 +10,16 @@ body {
 	/*margin-top: 250px;*/
 	/*background: url(../images/lab-puppie.jpg);*/
 }
-header{
-	background-color: white;
-	text-align: right;
-	padding: 0.8em;
+button {
+	background-color: black;
+	color: white;
+	border-radius: 2em;
+	font-size: 0.7em;
 }
-#signUp {
-	width: ;
+header{
+	/*background-color: white;*/
+	text-align: right;
+	padding: .5em;
 }
 h1 {
 	font-family: 'Indie Flower', cursive;
@@ -39,8 +42,7 @@ div {
 	width: 10em;
 	padding: 20px;
 	border-style: outset;
-	border-width: 5px;
-	border-radius: 20px;
+	border-radius: 2em;
 }
 #programs {
 	background-color: white;
@@ -49,8 +51,7 @@ div {
 	width: 10em;
 	padding: 20px;
 	border-style: outset;
-	border-width: 5px;
-	border-radius: 20px;
+	border-radius: 2em;
 }
 a{
 	font-family: 'Josefin Sans', sans-serif;
