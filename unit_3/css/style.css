@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Dekko);
 
 /*START HEADER SECTION*/
 header {
@@ -79,10 +80,32 @@ li {
 
 /*START ADOPTIONS PAGE SECTION*/
 #adoptionsPage {
-	text-align: center;
+	/*text-align: center;*/
+	padding: 0 30px 0 30px;
+}
+h2 {
+	font-family: 'Dekko', cursive;
+	font-size: 2.5em;
+}
+p {
+	font-size: 1.5em;
+}
+img {
+	width: 20em;
+	height: auto;
+	border-style: double;
+	border-width: 0.5em;
+}
+.column {
+	display: inline-block;
+	padding: 0 20px 0 10px;
 }
 /*END ADOPTIONS PAGE SECTION*/
 
+#classesAndPrograms {
+	/*text-align: center;*/
+	padding: 0 30px 0 30px;
+}
 
 
 
