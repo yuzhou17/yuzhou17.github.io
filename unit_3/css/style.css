@@ -2,14 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
-
-#intro {
-	height: 38em;
-	background: url("http://i.imgur.com/xGAinlY.jpg");
-	background-size: cover;
-	text-align: center;
-	padding: 3.2em;
-	/*background: url(../images/lab-puppie.jpg);*/
+/*START HEADER SECTION*/
+header {
+	/*background-color: white;*/
+	text-align: right;
+	padding: .5em;
 }
 button {
 	background-color: #373A42;
@@ -17,10 +14,16 @@ button {
 	border-radius: 2em;
 	font-size: 0.7em;
 }
-header{
-	/*background-color: white;*/
-	text-align: right;
-	padding: .5em;
+/*END HEADER SECTION*/
+
+/*START INTRO SECTION*/
+#intro {
+	height: 38em;
+	background: url("http://i.imgur.com/xGAinlY.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 3.2em;
+	/*background: url(../images/lab-puppie.jpg);*/
 }
 h1 {
 	font-family: 'Indie Flower', cursive;
@@ -53,4 +56,31 @@ a{
 	color: black;
 	font-weight: 200;
 	font-size: 1.1em;
+	text-decoration: none;
 }
+/*END INTRO SECTION*/
+
+/*START NAVAGATION SECTION*/
+nav{
+	text-align: center;
+}
+ul {
+	padding: 2em;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+li {
+	margin: 0 0 30px 0;
+	display: inline-block;
+
+}
+/*END NAVAGATION SECTION*/
+
+#adoptionsPage {
+	text-align: center;
+}
+
+
+
+
+
