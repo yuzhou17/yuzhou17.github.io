@@ -4,10 +4,11 @@
 
 
 #intro {
+	height: 38em;
 	background: url("http://i.imgur.com/xGAinlY.jpg");
 	background-size: cover;
 	text-align: center;
-	/*margin-top: 250px;*/
+	padding: 3.2em;
 	/*background: url(../images/lab-puppie.jpg);*/
 }
 button {
