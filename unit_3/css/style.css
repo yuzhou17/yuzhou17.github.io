@@ -11,7 +11,7 @@ body {
 	/*background: url(../images/lab-puppie.jpg);*/
 }
 button {
-	background-color: black;
+	background-color: #373A42;
 	color: white;
 	border-radius: 2em;
 	font-size: 0.7em;
@@ -36,7 +36,7 @@ div {
 	display: inline-block;
 }
 #adopt {
-	background-color: #FF473B;
+	background-color: #FF633F;
 	margin: 100px 10px 0 10px;
 	height: 1em;
 	width: 10em;
