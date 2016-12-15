@@ -64,7 +64,8 @@ a{
 /*START NAVAGATION SECTION*/
 nav{
 	text-align: center;
-	/*background-color: #FF600C;*/
+	background-color: #FF633F;
+	margin: -1.6em 0 0 0;
 }
 ul {
 	padding: 0.5em;
@@ -82,13 +83,15 @@ li {
 #adoptionsPage {
 	/*text-align: center;*/
 	padding: 0 30px 0 30px;
+	display: block;
 }
 h2 {
 	font-family: 'Dekko', cursive;
 	font-size: 2.5em;
+	text-align: center;
 }
 p {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 img {
 	width: 20em;
@@ -99,6 +102,9 @@ img {
 .column {
 	display: inline-block;
 	padding: 0 20px 0 10px;
+}
+.clickForMore {
+	text-decoration: underline;
 }
 /*END ADOPTIONS PAGE SECTION*/
 
