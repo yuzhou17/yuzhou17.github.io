@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Dekko);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 /*START HEADER SECTION*/
 header {
@@ -32,7 +33,7 @@ h1 {
 	font-weight: 800;
 	margin-top: 2em;
 }
-p {
+h3 {
 	font-size: 1.6em;
 	font-family: 'Rokkitt', serif;
 	/*margin-top: 50px;*/
@@ -86,12 +87,13 @@ li {
 	display: block;
 }
 h2 {
-	font-family: 'Dekko', cursive;
-	font-size: 2.5em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
 	text-align: center;
 }
 p {
-	font-size: 1.3em;
+	font-size: 1.1em;
+	font-family: 'Dekko', cursive;
 }
 img {
 	width: 20em;
@@ -101,12 +103,20 @@ img {
 }
 .column {
 	display: inline-block;
-	padding: 0 20px 0 10px;
-}
-.clickForMore {
-	text-decoration: underline;
+	padding: 0 20px 0 0;
 }
 /*END ADOPTIONS PAGE SECTION*/
+
+/*START OF STORIES SECITON*/
+#stories {
+	background: url(../images/dog_lineup.jpg);
+	/*background-size: cover;*/
+	height: 20em;
+}
+h4 {
+	padding-top: 18em;
+}
+/*END OF STORIES SECTION*/
 
 #classesAndPrograms {
 	/*text-align: center;*/
