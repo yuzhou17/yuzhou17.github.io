@@ -105,6 +105,15 @@ img {
 	display: inline-block;
 	padding: 0 20px 0 0;
 }
+#block {
+	padding-right: 7em;
+}
+#dogPhoto {
+	margin-right: -1em;
+}
+#seeMore {
+	text-decoration: underline;
+}
 /*END ADOPTIONS PAGE SECTION*/
 
 /*START OF STORIES SECITON*/
@@ -112,9 +121,12 @@ img {
 	background: url(../images/dog_lineup.jpg);
 	/*background-size: cover;*/
 	height: 20em;
+	padding: 0 auto;
 }
-h4 {
-	padding-top: 18em;
+#highlight {
+	background-color: white;
+	height: 8em;
+	width: 30em;
 }
 /*END OF STORIES SECTION*/
 
