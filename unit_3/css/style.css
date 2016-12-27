@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Dekko);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100i);
+
 
 /*START HEADER SECTION*/
 header {
@@ -85,6 +87,7 @@ li {
 	/*text-align: center;*/
 	padding: 0 30px 0 30px;
 	display: block;
+	margin-top: 5em;
 }
 h2 {
 	font-family: 'Raleway', sans-serif;
@@ -105,34 +108,48 @@ img {
 	display: inline-block;
 	padding: 0 20px 0 0;
 }
-#block {
-	padding-right: 7em;
+.block {
+	padding: 2em;
+	background-color: #EDEDED;
+	width: 40em;
+	margin: 0 auto;
+	margin-top: 2em;
 }
-#dogPhoto {
-	margin-right: -1em;
+.dogPhoto {
+	margin-right: 1em;
 }
 #seeMore {
 	text-decoration: underline;
+	margin-top: 2em;
 }
 /*END ADOPTIONS PAGE SECTION*/
 
 /*START OF STORIES SECITON*/
-#stories {
+#banner {
 	background: url(../images/dog_lineup.jpg);
 	/*background-size: cover;*/
 	height: 20em;
-	padding: 0 auto;
+	margin-top: 5em;
 }
 #highlight {
-	background-color: white;
+	background-color: #EDEDED;
 	height: 8em;
-	width: 30em;
+	width: 50em;
+	margin: 0 auto;
+	margin-top: -9em;
+}
+h4 {
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 3em;
+	padding-top: .6em;
 }
 /*END OF STORIES SECTION*/
 
 #classesAndPrograms {
 	/*text-align: center;*/
 	padding: 0 30px 0 30px;
+	margin-top: 5em;
 }
 
 
