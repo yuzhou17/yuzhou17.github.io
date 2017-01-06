@@ -84,7 +84,7 @@ li {
 
 /*START ADOPTIONS PAGE SECTION*/
 main {
-	/*text-align: center;*/
+	text-align: center;
 	padding: 0 30px 0 30px;
 	/*display: block;*/
 	margin-top: 5em;
@@ -94,10 +94,7 @@ h2 {
 	font-size: 2em;
 	text-align: center;
 }
-p {
-	font-size: 1.1em;
-	font-family: 'Dekko', cursive;
-}
+
 img {
 	width: 20em;
 	height: auto;
@@ -105,21 +102,30 @@ img {
 	border-width: 0.5em;
 }
 
-article {
-	padding: 2em;
-	background-color: #EDEDED;
-	width: 40em;
-	margin: 0 auto;
-	margin-top: 2em;
-	display: inline;
-}
-
 .column {
 	display: inline;
 }
 
+article {
+	background-color: #EDEDED;
+	width: 40em;
+	margin: 0 auto;
+	margin-top: 2em;
+	display: inline-block;
+}
+
+p {
+	font-size: 1.1em;
+	font-family: 'Dekko', cursive;
+	text-align: left;
+}
+
 .dogPhoto {
 	margin-right: 1em;
+	display: inline-block;
+}
+.dogDescription{
+	display: inline-block;
 }
 #seeMore {
 	text-decoration: underline;
