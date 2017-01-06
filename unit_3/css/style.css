@@ -97,9 +97,9 @@ h2 {
 
 img {
 	width: 20em;
-	height: auto;
+	height: 20em;
 	border-style: double;
-	border-width: 0.5em;
+	border-width: 0.2em;
 }
 
 .column {
@@ -110,8 +110,9 @@ article {
 	background-color: #EDEDED;
 	width: 40em;
 	margin: 0 auto;
-	margin-top: 2em;
+	margin: 2em 1em 0 1em;
 	display: inline-block;
+	padding: 0.2em;
 }
 
 p {
@@ -126,6 +127,7 @@ p {
 }
 .dogDescription{
 	display: inline-block;
+	width: 10em;
 }
 #seeMore {
 	text-decoration: underline;
