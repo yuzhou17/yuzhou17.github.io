@@ -197,7 +197,7 @@ h5 {
 .programBox {
 	width: 20em;
 	height: 20em;
-	display: inline-block;
+	float: left;
 	background-color: #EDEDED;
 	margin: 2em;
 	text-align: center;
