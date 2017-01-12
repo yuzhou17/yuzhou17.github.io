@@ -65,23 +65,35 @@ a{
 	font-size: 1.1em;
 	text-decoration: none;
 }
+
 /*END INTRO SECTION*/
 
 /*START NAVAGATION SECTION*/
 #navOne{
 	text-align: center;
 	background-color: #FF633F;
-	margin: -1.6em 0 0 0;
+	margin: -1.2em 0 0 0;
 }
 ul {
-	padding: 0.5em;
 	list-style-type: none;
 	font-size: 1.1em;
 }
 li {
-	display: inline-block;
+	display: block;
+	float: left;
 	text-decoration: underline;
-	padding: 0 60px 0 60px;
+	padding: 1em
+}
+li:hover {
+	background-color: #aeadad;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 /*END NAVAGATION SECTION*/
 
