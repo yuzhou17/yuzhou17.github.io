@@ -6,20 +6,21 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100i);
 
 
-body{
+* {
 	margin: 0;
+	padding:0;
+	box-sizing:border-box;
 }
 /*START HEADER SECTION*/
 #signIn {
-	/*background-color: white;*/
 	text-align: right;
-	padding: .5em;
 }
 button {
 	background-color: #373A42;
 	color: white;
-	border-radius: 2em;
+	border: none;
 	font-size: 0.7em;
+	padding: 1em 4em;
 }
 /*END HEADER SECTION*/
 
@@ -32,36 +33,41 @@ header {
 	padding: 3.2em;
 	/*background: url(../images/lab-puppie.jpg);*/
 }
+a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1em;
+}
 h1 {
 	font-family: 'Indie Flower', cursive;
 	font-size: 5em;
 	font-weight: 800;
 	margin-top: 2.3em;
 }
-h3 {
+h2 {
 	font-size: 1.6em;
 	font-family: 'Rokkitt', serif;
-	margin-top: 2em;
+	margin-top: 2.5em;
 }
 .homepageButtons {
-	margin: 100px 10px 0 10px;
-	height: 1em;
-	width: 10em;
-	padding: 20px;
-	border-style: outset;
+	margin: 4em .5em 0 .5em;
+	width: 20em;
+	padding: 18px 0;
 	border-radius: 2em;
 	display: inline-block;
+	color: inherit;
+	text-decoration: none;
 }
 .homepageButtons:hover {
 	background-color: #aeadad;
 }
 #adopt {
-	background-color: #FF633F;	
+	background-color: #FF633F;
+	color: #fff;
 }
 #programs {
 	background-color: white;
 }
-a{
+li a{
 	font-family: 'Josefin Sans', sans-serif;
 	color: black;
 	font-weight: 200;
@@ -75,7 +81,7 @@ a{
 #navOne{
 	text-align: center;
 	background-color: #FF633F;
-	margin: -1.7em 0 0 0;
+	margin: 0 auto;
 }
 ul {
 	list-style-type: none;
@@ -108,19 +114,30 @@ main {
 	padding: 5em;
 	margin-top: 5em;
 }
-h2 {
+h3 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.8em;
 	text-align: center;
 	border-bottom: .1em solid black;
 	width: 30%;
 	margin: 0 auto;
+	margin-bottom: 2em;
 	padding-bottom: .2em;
 }
-
-.dogPhoto img {
-	width: 20em;
-	height: 20em;
+h4 {
+	text-align: center;
+	font-family: 'Dekko', cursive;
+	font-size: 1.2em;
+	margin: -0.2em;
+}
+.dog-name {
+	font-family: 'Dekko', cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.dogBox img {
+	width: 275px;
+	height:;
 	border-style: double;
 	border-width: 0.2em;
 }
@@ -128,15 +145,14 @@ h2 {
 .dogBox {
 	float: left;
 	background-color: #EDEDED;
-	width: 35em;
-	margin: 1em;
-	padding: 0.7em;
+	width: 48%;
+	margin: 1%;
+	padding: 1.5em;
 }
 
 p {
-	font-size: 1.1em;
-	font-family: 'Dekko', cursive;
-	text-align: left;
+	font-size: 1em;
+	text-align: center;
 }
 
 .dogPhoto {
@@ -145,12 +161,13 @@ p {
 }
 .dogDescription{
 	display: inline-block;
-	width: 10em;
+	width: 40%;
 }
 .seeMore {
 	text-decoration: underline;
 	text-align: center;
-	margin-top: 2em;
+	clear: both;
+	font-size: 1.2em;
 }
 /*END ADOPTIONS PAGE SECTION*/
 
@@ -171,18 +188,27 @@ p {
 	margin: 0 auto;
 	margin-top: -5em;
 }
-h4 {
+h5 {
 	text-align: center;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 3em;
 	padding-top: .6em;
 }
+
+#story-description {
+	float: left;
+	height: 42em;
+	width: 20%;
+	background-color: #EDEDED;
+	margin: 2em 2em 0 5em;
+}
 section {
 	height: 20em;
-	width: 60em;
+	width: 65%;
 	background-color: #EDEDED;
-	margin: 0 auto;
-	margin-top: 2em;
+	display: block;
+	float: right;
+	margin: 2em 5em 0 0;
 }
 /*END OF STORIES SECTION*/
 
@@ -192,17 +218,17 @@ section {
 	margin: 0 auto;
 	margin-top: 5em;
 }
-h5 {
-	font-size: 1.2em;
+h6 {
+	font-size: 1.1em;
 	text-transform: uppercase;
 	padding: 0.2em 0;
 }
 .programBox {
-	width: 20em;
+	width: 30%;
+	margin: 10%;
 	height: 20em;
 	float: left;
 	background-color: #EDEDED;
-	margin: 2em;
 	text-align: center;
 	padding: 1em 0;
 }
